@@ -14,7 +14,7 @@ const router = Router();
 router.post(
   "/login",
   [
-    check("correo", "El correo es obligatorio").isEmail(),
+    check("correo", "El correo es oblsdfsdfigatorio").isEmail(),
     check("password", "Lsdfsdfsda contraseña es obligatoria").not().isEmpty(),
     validarCampos,
   ],
